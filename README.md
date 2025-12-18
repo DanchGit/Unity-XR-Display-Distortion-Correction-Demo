@@ -37,9 +37,193 @@ Each scene allows visual comparison between:
  
 ---
 
-## Images
+# Images
+## Barrel Distortion (Low)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Checkerboard Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/Barrel_0.1.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated Barrel Distortion (Low)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/PreCorrected_0.07.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/Barrel_0.1_Corr_0.07.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
+
+## Barrel Distortion (High)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Checkerboard Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/Barrel_0.4.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated Barrel Distortion (High)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/PreCorrected_0.3.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Barrel/Barrel_0.4_Corr_0.3.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
+
+## Pincushion Distortion (Low)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Checkerboard Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PC_neg0.1.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated Pincushion Distortion (Low)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PreCorrected_neg0.1.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PC_neg0.1_Corr_neg0.1.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
 
 
+## Pincushion Distortion (High)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Checkerboard Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PC_neg0.14.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated Pincushion Distortion (High)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PreCorrected_neg0.14.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Pincushion/PC_neg0.14_Corr_neg0.14.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
+
+## Chromatic Abberration (Low)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/CA Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/CA_0.01.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated CA (Low)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/precorrected_0.01.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/CA_corrected_0.01.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
+
+## Chromatic Abberration (High)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/CA Original.png" style="max-width:100%;"/>
+      <br/>
+      <em>Reference Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/CA_0.04.png" style="max-width:100%;"/>
+      <br/>
+      <em>Simulated CA (High)</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/precorrected_0.04.png" style="max-width:100%;"/>
+      <br/>
+      <em>Pre-Corrected Image</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/Chromatic Aberration/CA_corrected_0.04.png" style="max-width:100%;"/>
+      <br/>
+      <em>Distorted Image appears close to reference image</em>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -48,7 +232,8 @@ Each scene allows visual comparison between:
 
 1. Open the Unity project.
 2. Load a scene from the `Scenes/` folder.
-3. Use the exposed toggles and parameters to inspect distortion and correction behavior.
+3. Click on the Main Camera in the inspector pannel.
+4. Use the exposed toggles and parameters to inspect distortion and correction behavior.
 
 ---
 
