@@ -27,10 +27,10 @@ The goal of this project is to show how virtual content can be **pre-distorted i
 
 ## Scenes
 
-- **Scene 1 — Barrel/Pincushion Distortion Pipeline**  
+- **Scene 1: Barrel/Pincushion Distortion Pipeline**  
   Barrel and pincushion distortion applied to a checkerboard pattern, with toggleable pre-distortion correction.
 
-- **Scene 2 — Chromatic Aberration Pipeline**  
+- **Scene 2: Chromatic Aberration Pipeline**  
   Chromatic aberration applied to a Siemens sinusoidal star pattern, with toggleable pre-distortion correction.
 
 Each scene allows visual comparison between:
